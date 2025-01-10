@@ -19,7 +19,7 @@ Lifedia is a marketplace platform designed to simplify the process of selecting,
 ## 📂 Directory Structure
 
 ```plaintext
-lifedia-web-v1/
+lifedia/
 ├── index.html               # Halaman utama
 ├── profile-page.html        # Halaman profil pengguna
 ├── question-1.html          # Halaman pertanyaan 1
@@ -62,24 +62,9 @@ lifedia-web-v1/
 └── README.md                # Dokumentasi proyek
 ```
 
-## 📖 Installation Guide
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/ikhsanfauzan2812/lifedia-web-v1.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
-   cd lifedia-web-v1
-   ```
-
-3. Open the index.html file in your favorite browser.
-
-
 ## 💡 Contribution
 We welcome contributions from everyone. If you have an idea or find a bug, feel free to create a pull request or report an issue in the issues section.
 
 ---
 
-**Create with ❤️ [Ikhsan](https://github.com/ikhsanfauzan2812)**
+**Create with ❤️ [Syafi'i](https://www.linkedin.com/in/muhammad-syafii-nurullah)**
