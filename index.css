@@ -1,0 +1,749 @@
+.image-2-icon,
+.private-vs-company-backed-car-icon {
+  height: 951px;
+  width: 1980px;
+  position: absolute;
+  margin: 0 !important;
+  top: 133px;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.private-vs-company-backed-car-icon {
+  height: 755px;
+  width: 1056px;
+  top: 329px;
+  left: 864px;
+  object-fit: contain;
+  z-index: 1;
+}
+.temukan-asuransi-kesehatan {
+  margin: 0;
+}
+.pasti-nyaman-pasti,
+.temukan-asuransi-kesehatan-container {
+  position: absolute;
+  margin: 0 !important;
+  color: var(--color-white);
+  display: inline-block;
+}
+.temukan-asuransi-kesehatan-container {
+  width: 1141px;
+  top: 189px;
+  left: 58px;
+  font-size: var(--font-size-45xl);
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.pasti-nyaman-pasti {
+  height: 71px;
+  width: 1767px;
+  top: calc(50% - 1018px);
+  left: calc(50% - 902px);
+  font-weight: 500;
+  z-index: 3;
+}
+.kenapa-lifedia,
+.lifedia-memastikan-anda {
+  position: absolute;
+  margin: 0 !important;
+  text-align: center;
+}
+.kenapa-lifedia {
+  height: 65px;
+  width: 548px;
+  top: 1187px;
+  left: 686px;
+  font-size: var(--font-size-45xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-cornflowerblue-100);
+  display: inline-block;
+  z-index: 4;
+}
+.lifedia-memastikan-anda {
+  width: 1104px;
+  top: 2092px;
+  left: 408px;
+  font-size: 25px;
+  color: var(--color-white);
+  display: none;
+  height: 11px;
+  z-index: 5;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.whatsapp-image-2024-05-01-at-1 {
+  position: absolute;
+  top: 34px;
+  left: calc(50% - 960px);
+  width: 294px;
+  height: 65px;
+  object-fit: contain;
+}
+.beranda {
+  position: absolute;
+  top: 53px;
+  left: 575px;
+  text-decoration: underline;
+  color: var(--color-cornflowerblue-100);
+  cursor: pointer;
+}
+.kenapa-lifedia1 {
+  top: 53px;
+  left: 843px;
+  cursor: pointer;
+}
+.hi-agus,
+.kenapa-lifedia1,
+.tentang-lifedia {
+  position: absolute;
+  white-space: nowrap;
+  
+}
+.tentang-lifedia {
+  top: 53px;
+  left: 1175px;
+  cursor: pointer;
+}
+.hi-agus {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: var(--color-cornflowerblue-100);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+.hi-agus-wrapper {
+  position: absolute;
+  top: 53px;
+  left: 1699px;
+  width: 139px;
+  height: 37px;
+  color: var(--color-cornflowerblue-100);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+.protection-journey,
+.rectangle-parent {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+}
+.rectangle-parent {
+  position: fixed;
+  height: 132px;
+  width: 100%;
+  top: 0;
+  background-color: var(--color-white);
+  z-index: 99;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.protection-journey {
+  height: 409px;
+  width: 1980px;
+  top: 2021px;
+  background-color: var(--color-royalblue);
+  z-index: 7;
+}
+.mulai-perjalanan-perlindungan {
+  margin: 0;
+}
+.mulai-perjalanan-perlindungan-container {
+  height: 132px;
+  width: 1233px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2094px;
+  left: 335px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  z-index: 8;
+}
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: #60a0ff;
+  width: 414px;
+  height: 96px;
+}
+.cari-yang-pas {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 111px);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+}
+.frame-item {
+  position: absolute;
+  height: calc(100% - 1px);
+  top: 1px;
+  bottom: 0;
+  left: 172px;
+  width: 100px;
+  overflow: hidden;
+  display: none;
+}
+.carousel-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 101px;
+  width: 414px;
+  position: absolute;
+  margin: 0 !important;
+  top: 558px;
+  left: 58px;
+  z-index: 9;
+}
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1297px;
+  height: 96px;
+}
+.cari-yang-pas1 {
+  position: absolute;
+  top: calc(50% - 21.5px);
+  left: calc(50% - 106.5px);
+}
+.frame-div {
+  position: absolute;
+  height: calc(100% - 1px);
+  top: 1px;
+  bottom: 0;
+  left: 582px;
+  width: 100px;
+  overflow: hidden;
+  display: none;
+}
+.rectangle-group {
+  height: 101px;
+  width: 1297px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2262px;
+  left: 320px;
+  cursor: pointer;
+  z-index: 10;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-royalblue);
+  font-family: var(--font-montserrat);
+}
+.image-3-icon {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.whatsapp-image-2024-05-03-at-1-icon {
+  position: absolute;
+  top: 84px;
+  left: 25px;
+  width: 422px;
+  height: 112px;
+  object-fit: contain;
+}
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 531px;
+  border-radius: 45px;
+  width: 548px;
+  height: 170px;
+}
+.rectangle-div {
+  top: 148px;
+  left: 926px;
+  border-radius: 10px;
+  background-color: rgba(126, 178, 255, 0.5);
+  width: 302px;
+  height: 57px;
+  cursor: pointer;
+}
+.whatsapp-svgrepo-com-1-icon {
+  position: absolute;
+  top: 159.4px;
+  left: 951.7px;
+  width: 34.7px;
+  height: 34.7px;
+  overflow: hidden;
+}
+.div,
+.lifedia-adalah-pintu {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.div {
+  top: 163px;
+  left: 1003px;
+  width: 200px;
+  height: 30px;
+}
+.lifedia-adalah-pintu {
+  margin: 0;
+  top: 284px;
+  left: 59px;
+  font-size: var(--font-size-17xl);
+  font-family: inherit;
+  width: 729px;
+}
+.hubungi-lifedia,
+.jl-pendidikan-no15 {
+  position: absolute;
+  top: 429px;
+  left: 926px;
+  font-weight: 500;
+  display: inline-block;
+  width: 807px;
+}
+.hubungi-lifedia {
+  margin: 0;
+  top: 84px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  width: 302px;
+}
+.email,
+.lifediaupiedu {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.lifediaupiedu {
+  top: 63px;
+  font-weight: 500;
+  width: 203px;
+  white-space: nowrap;
+}
+.email {
+  margin: 0;
+  top: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  width: 136px;
+}
+.lifediaupiedu-parent {
+  position: absolute;
+  top: 235px;
+  left: 926px;
+  width: 203px;
+  height: 92px;
+}
+.alamat {
+  margin: 0;
+  position: absolute;
+  top: 363px;
+  left: 926px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 153px;
+}
+.lifedia,
+.lifedia1 {
+  left: 90px;
+  font-weight: 500;
+  width: 105px;
+  min-width: 105px;
+}
+.lifedia {
+  position: absolute;
+  top: 79px;
+  display: inline-block;
+}
+.lifedia1 {
+  top: 147px;
+}
+.get-in-touch,
+.lifedia1,
+.lifedia2 {
+  position: absolute;
+  display: inline-block;
+}
+.lifedia2 {
+  top: 211px;
+  left: 90px;
+  font-weight: 500;
+  width: 105px;
+  min-width: 105px;
+}
+.get-in-touch {
+  margin: 0;
+  top: 0;
+  left: 23px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  width: 250px;
+}
+.background-image-icon,
+.iconmonstr-instagram-11-1 {
+  position: absolute;
+  top: 145px;
+  left: 23px;
+  width: 33px;
+  height: 32px;
+  overflow: hidden;
+}
+.iconmonstr-instagram-11-1 {
+  top: 75px;
+  left: 25px;
+  height: 33px;
+}
+.facebook-f-logo-blue-logowine-icon {
+  position: absolute;
+  top: 199px;
+  left: 0;
+  width: 79px;
+  height: 52px;
+  overflow: hidden;
+}
+.image-3-parent,
+.lifedia-parent {
+  position: absolute;
+  top: 85px;
+  left: 1460px;
+  width: 273px;
+  height: 251px;
+}
+.image-3-parent {
+  height: 549px;
+  width: 1993.8px;
+  margin: 0 !important;
+  top: 2412px;
+  left: -1px;
+  z-index: 11;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.home-page-child,
+.image-placeholder,
+.image-placeholder1 {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-11xl);
+}
+.image-placeholder {
+  height: 635px;
+  width: 560px;
+  top: 1290px;
+  left: 102px;
+  box-shadow: 11px 15px 4px 9px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  z-index: 12;
+  position: absolute; 
+}
+
+/* Menambahkan gaya untuk elemen teks */
+.text-placeholder1 {
+  height: 63px;
+  width: 515px;
+  position: absolute;
+  top: 1750px; /* Ubah sesuai kebutuhan, posisi teks di bawah kotak */
+  left: 118px; /* Ubah sesuai kebutuhan, jika perlu */
+  font-weight: 500;
+  display: inline-block;
+  max-height: 50px;
+  word-break: break-word;
+  z-index: 22;
+  padding: 10px; 
+  box-sizing: border-box;
+  line-height: 1.0; /* Sesuaikan dengan kebutuhan Anda */ 
+}
+
+.text-placeholder2 {
+  height: 63px;
+  width: 515px;
+  position: absolute;
+  top: 1750px; /* Ubah sesuai kebutuhan, posisi teks di bawah kotak */
+  left: 710px; /* Ubah sesuai kebutuhan, jika perlu */
+  font-weight: 500;
+  display: inline-block;
+  max-height: 50px;
+  word-break: break-word;
+  z-index: 22;
+  padding: 10px; 
+  box-sizing: border-box;
+  line-height: 1.0; /* Sesuaikan dengan kebutuhan Anda */ 
+}
+.text-placeholder3 {
+  height: 63px;
+  width: 515px;
+  position: absolute;
+  top: 1750px; /* Ubah sesuai kebutuhan, posisi teks di bawah kotak */
+  left: 1320px; /* Ubah sesuai kebutuhan, jika perlu */
+  font-weight: 500;
+  display: inline-block;
+  max-height: 50px;
+  word-break: break-word;
+  z-index: 22;
+  padding: 10px; 
+  box-sizing: border-box;
+  line-height: 1.0; /* Sesuaikan dengan kebutuhan Anda */ 
+}
+.home-page-child,
+.image-placeholder1 {
+  width: 497px;
+  top: 1355px;
+  left: 133px;
+  background-color: var(--color-gainsboro);
+  height: 334px;
+  z-index: 13;
+}
+.image-placeholder1 {
+  height: 635px;
+  width: 560px;
+  top: 1290px;
+  left: 704px;
+  box-shadow: 11px 15px 4px 9px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  z-index: 14;
+}
+.home-page-item {
+  width: 497px;
+  top: 1355px;
+  left: 727px;
+  background-color: var(--color-gainsboro);
+  height: 334px;
+  z-index: 15;
+}
+.home-page-inner,
+.home-page-item,
+.image-placeholder2 {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-11xl);
+}
+.image-placeholder2 {
+  height: 635px;
+  width: 560px;
+  top: 1290px;
+  left: 1306px;
+  box-shadow: 11px 15px 4px 9px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  z-index: 16;
+}
+.home-page-inner {
+  width: 497px;
+  top: 1343px;
+  left: 1337px;
+  background-color: var(--color-gainsboro);
+  height: 334px;
+  z-index: 17;
+}
+.marge-oliver-myers-removebg-icon {
+  height: 395px;
+  width: 497px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1290px;
+  left: 133px;
+  object-fit: contain;
+  z-index: 18;
+}
+.pasti-lengkap,
+.pasti-nyaman,
+.pasti-terjangkau {
+  margin: 0 !important;
+  height: 54px;
+  width: 312px;
+  position: absolute;
+  top: 1711px;
+  left: 134px;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 19;
+}
+.pasti-lengkap,
+.pasti-terjangkau {
+  width: 322px;
+  left: 720px;
+  z-index: 20;
+}
+.pasti-terjangkau {
+  width: 361px;
+  top: 1707px;
+  left: 1333px;
+  z-index: 21;
+}
+
+.i-always-think-that-old-couple {
+  height: 520px;
+  width: 748px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1169px;
+  left: 527px;
+  display: none;
+  z-index: 25;
+}
+.casal-de-idosos-brincando-e-ri-icon,
+.envelhecido-homem-feliz-coli-icon {
+  height: 411px;
+  width: 489px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1277px;
+  left: 707px;
+  object-fit: contain;
+  z-index: 26;
+}
+.envelhecido-homem-feliz-coli-icon {
+  height: 384px;
+  top: 1291px;
+  left: 1345px;
+  z-index: 27;
+}
+.home-page {
+  width: 100%;
+  height: 2966px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 767px) {
+  .temukan-asuransi-kesehatan-container {
+    font-size: var(--font-size-32xl);
+  }
+  .pasti-nyaman-pasti {
+    font-size: var(--font-size-7xl);
+  }
+  .kenapa-lifedia {
+    font-size: var(--font-size-32xl);
+  }
+  .mulai-perjalanan-perlindungan-container {
+    font-size: var(--font-size-17xl);
+  }
+  .cari-yang-pas,
+  .cari-yang-pas1 {
+    font-size: var(--font-size-5xl);
+  }
+  .alamat,
+  .email,
+  .get-in-touch,
+  .hubungi-lifedia,
+  .lifedia-adalah-pintu {
+    font-size: var(--font-size-10xl);
+  }
+  .pasti-lengkap,
+  .pasti-nyaman,
+  .pasti-terjangkau {
+    font-size: var(--font-size-13xl);
+  }
+  .adsasfasasffsaafsfafsdasfasfda,
+  .adsasfasasffsaafsfafsdasfasfda1,
+  .adsasfasasffsaafsfafsdasfasfda2 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .temukan-asuransi-kesehatan-container {
+    font-size: var(--font-size-19xl);
+  }
+  .pasti-nyaman-pasti {
+    font-size: var(--font-size-lgi);
+  }
+  .kenapa-lifedia {
+    font-size: var(--font-size-19xl);
+  }
+  .lifedia-memastikan-anda {
+    font-size: 20px;
+  }
+  .mulai-perjalanan-perlindungan-container {
+    font-size: 27px;
+  }
+  .cari-yang-pas,
+  .cari-yang-pas1 {
+    font-size: var(--font-size-lg);
+  }
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+  .lifedia-adalah-pintu {
+    font-size: var(--font-size-3xl);
+  }
+  .jl-pendidikan-no15 {
+    font-size: var(--font-size-lgi);
+  }
+  .hubungi-lifedia {
+    font-size: var(--font-size-3xl);
+  }
+  .lifediaupiedu {
+    font-size: var(--font-size-lgi);
+  }
+  .alamat,
+  .email {
+    font-size: var(--font-size-3xl);
+  }
+  .lifedia,
+  .lifedia1,
+  .lifedia2 {
+    font-size: var(--font-size-lgi);
+  }
+  .get-in-touch {
+    font-size: var(--font-size-3xl);
+  }
+  .pasti-lengkap,
+  .pasti-nyaman,
+  .pasti-terjangkau {
+    font-size: var(--font-size-5xl);
+  }
+  .adsasfasasffsaafsfafsdasfasfda,
+  .adsasfasasffsaafsfafsdasfasfda1,
+  .adsasfasasffsaafsfafsdasfasfda2 {
+    font-size: var(--font-size-lgi);
+  }
+}

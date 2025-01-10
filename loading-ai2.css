@@ -1,0 +1,38 @@
+.whatsapp-image-2024-05-01-at-12 {
+  width: 626px;
+  position: absolute;
+  margin: 0 !important;
+  top: 427px;
+  left: calc(50% - 313px);
+  height: 226px;
+  object-fit: cover;
+  z-index: 0;
+}
+.loading-ai2-child,
+.loading-ai2-item {
+  width: 38px;
+  position: absolute;
+  margin: 0 !important;
+  top: 653px;
+  left: 731px;
+  height: 38px;
+  z-index: 1;
+}
+.loading-ai2-item {
+  left: 871px;
+  z-index: 2;
+}
+.loading-ai2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}

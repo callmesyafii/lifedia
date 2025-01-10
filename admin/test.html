@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin Asuransi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"], .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-left: 5px;
+        }
+        input[type="submit"]:hover, .btn:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard Admin Asuransi</h1>
+        <form id="inputForm">
+            <label for="merek">Nama Merek:</label>
+            <input type="text" id="merek" name="merek" required>
+            <label for="paket">Paket Asuransi:</label>
+            <input type="text" id="paket" name="paket" required>
+            <label for="besaran_polis">Besaran Polis:</label>
+            <input type="text" id="besaran_polis" name="besaran_polis" required>
+            <label for="besaran_tanggungan">Besaran Tanggungan:</label>
+            <input type="text" id="besaran_tanggungan" name="besaran_tanggungan" required>
+            <input type="submit" value="Simpan">
+        </form>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Nama Merek</th>
+                    <th>Paket Asuransi</th>
+                    <th>Besaran Polis</th>
+                    <th>Besaran Tanggungan</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data Produk Asuransi akan ditampilkan di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const form = document.getElementById('inputForm');
+        const dataTable = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+        let isEditMode = false;
+        let editedRow = null;
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            if (isEditMode) {
+                // Update existing row
+                const merek = document.getElementById('merek').value;
+                const paket = document.getElementById('paket').value;
+                const besaranPolis = document.getElementById('besaran_polis').value;
+                const besaranTanggungan = document.getElementById('besaran_tanggungan').value;
+
+                editedRow.cells[0].innerText = merek;
+                editedRow.cells[1].innerText = paket;
+                editedRow.cells[2].innerText = besaranPolis;
+                editedRow.cells[3].innerText = besaranTanggungan;
+
+                // Reset form and edit mode
+                form.reset();
+                isEditMode = false;
+                editedRow = null;
+            } else {
+                // Add new row
+                const merek = document.getElementById('merek').value;
+                const paket = document.getElementById('paket').value;
+                const besaranPolis = document.getElementById('besaran_polis').value;
+                const besaranTanggungan = document.getElementById('besaran_tanggungan').value;
+
+                const newRow = dataTable.insertRow();
+                newRow.innerHTML = `
+                    <td>${merek}</td>
+                    <td>${paket}</td>
+                    <td>${besaranPolis}</td>
+                    <td>${besaranTanggungan}</td>
+                    <td>
+                        <button class="edit-btn btn">Edit</button>
+                        <button class="delete-btn btn">Hapus</button>
+                    </td>
+                `;
+
+                // Add edit event listener
+                const editBtn = newRow.querySelector('.edit-btn');
+                editBtn.addEventListener('click', function() {
+                    isEditMode = true;
+                    editedRow = newRow;
+                    document.getElementById('merek').value = newRow.cells[0].innerText;
+                    document.getElementById('paket').value = newRow.cells[1].innerText;
+                    document.getElementById('besaran_polis').value = newRow.cells[2].innerText;
+                    document.getElementById('besaran_tanggungan').value = newRow.cells[3].innerText;
+                });
+
+                // Add delete event listener
+                const deleteBtn = newRow.querySelector('.delete-btn');
+                deleteBtn.addEventListener('click', function() {
+                const rowIndex = Array.from(newRow.parentNode.children).indexOf(newRow);
+                dataTable.deleteRow(rowIndex);
+                });
+
+
+                // Reset form
+                form.reset();
+            }
+        });
+    </script>
+</body>
+</html>

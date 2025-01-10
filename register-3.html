@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./register-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register-3">
+      <img
+      class="image-2-icon2"
+      loading="lazy"
+      alt=""
+      src="./public/image-2@2x.png"
+    />
+      <div class="register-3-child"></div>
+      <b class="daftar-akun-berhasil">
+        <p class="daftar-akun2">Daftar Akun</p>
+        <p class="berhasil">Berhasil</p>
+      </b>
+      <div class="wrapper-icon-check-circled">
+        <img
+          class="icon-check-circled-outline"
+          alt=""
+          src="./public/-icon-check-circled-outline.svg"
+        />
+      </div>
+      <b class="cek-notifikasi-pada">Cek Notifikasi pada Emall</b>
+      <div class="rectangle-parent23" id="groupContainer">
+        <div class="group-child21"></div>
+        <b class="masuk-sekarang">Masuk Sekarang</b>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./sign-up.html";
+        });
+      }
+      </script>
+  </body>
+</html>

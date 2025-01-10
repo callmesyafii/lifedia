@@ -1,0 +1,593 @@
+.image-2-icon17 {
+  width: 2000px;
+  position: absolute;
+  margin: 0 !important;
+  top: 132px;
+  left: 0;
+  height: 951px;
+  object-fit: cover;
+  z-index: 0;
+}
+.gender,
+.indeks-massa-tubuh,
+.nomor-telepon {
+  width: 213px;
+  position: absolute;
+  margin: 0 !important;
+  top: 605px;
+  left: calc(50% - 900px);
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), #d10505;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 36px;
+  z-index: 1;
+}
+.indeks-massa-tubuh,
+.nomor-telepon {
+  width: 355px;
+  top: 776px;
+  left: calc(50% + 295px);
+  z-index: 2;
+}
+.nomor-telepon {
+  width: 268px;
+  top: 605px;
+  left: calc(50% - 281px);
+  z-index: 3;
+}
+.email4,
+.tinggi-badan {
+  width: 269px;
+  margin: 0 !important;
+}
+.tinggi-badan {
+  position: absolute;
+  top: 778px;
+  left: calc(50% - 881px);
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), #d10505;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 36px;
+  z-index: 4;
+}
+.email4 {
+  top: 605px;
+  left: calc(50% + 220px);
+  z-index: 5;
+}
+.berat-badan,
+.email4,
+.nama-lengkap {
+  position: absolute;
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), #d10505;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 36px;
+}
+.berat-badan {
+  width: 335px;
+  margin: 0 !important;
+  top: 778px;
+  left: calc(50% - 341px);
+  z-index: 6;
+}
+.nama-lengkap {
+  top: 0;
+  left: calc(50% + 131.85px);
+  width: 294px;
+}
+.first-name-child {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  width: 542px;
+  height: 109.2px;
+}
+.first-name {
+  width: 851.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 436px;
+  left: calc(50% - 848.7px);
+  height: 155.9px;
+  z-index: 7;
+}
+.profile-page-child {
+  width: 263px;
+  top: 660px;
+  left: 130px;
+  box-sizing: border-box;
+  height: 109px;
+  z-index: 8;
+}
+/* Tombol Laki-Laki */
+.male-button.profile-page-child {
+  width: 263px;
+  top: 660px;
+  left: 130px;
+  box-sizing: border-box;
+  height: 109px;
+  z-index: 8;
+  background-color: white; /* Warna background putih */
+  border-radius: 10px; /* Membuat sudut membulat */
+  color: red; /* Warna teks merah */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 109px; /* Vertikal tengah */
+  cursor: pointer;
+  outline: none; /* Menghilangkan outline default */
+}
+
+/* Tombol Perempuan */
+.female-button.profile-page-child2 {
+  width: 542px;
+  top: 830px;
+  left: 130px;
+  background-color: red; /* Warna fill merah */
+  height: 110px;
+  z-index: 12;
+  border: 3px solid white; /* Warna border putih */
+  border-radius: 10px; /* Membuat sudut membulat */
+  color: white; /* Warna teks putih */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 110px; /* Vertikal tengah */
+  cursor: pointer;
+  outline: none; /* Menghilangkan outline default */
+}
+
+/* Tambahan opsional untuk hover efek */
+.male-button:hover, .female-button:hover {
+  opacity: 0.8;
+}
+
+/* Gaya ketika tombol dalam keadaan fokus atau aktif */
+.male-button:focus, .male-button:active,
+.female-button:focus, .female-button:active {
+  outline: 5px solid black; /* Outline hitam ketika diklik atau fokus */
+}
+
+.profile-page-child,
+.profile-page-child1,
+.profile-page-child2,
+.profile-page-inner,
+.profile-page-item {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+}
+.profile-page-item {
+  width: 166px;
+  top: 970px;
+  left: 1490px;
+  border: 3px solid red; /* Mengubah warna outline menjadi merah */
+  box-sizing: border-box;
+  height: 68px;
+  z-index: 9;
+}
+
+
+.profile-page-child1,
+.profile-page-child2,
+.profile-page-inner {
+  width: 263px;
+  top: 660px;
+  left: 410px;
+  height: 109px;
+  z-index: 10;
+  border: 3px white; 
+}
+.profile-page-child1,
+.profile-page-child2 {
+  width: 165px;
+  top: 970px;
+  left: 1665px;
+  height: 68px;
+  z-index: 11;
+  background-color: red; /* Mengubah warna fill menjadi merah */
+}
+.profile-page-child2 {
+  width: 542px;
+  top: 830px;
+  left: 130px;
+  background-color: var(--color-white);
+  height: 110px;
+  z-index: 12;
+  border: 3px white; 
+}
+.username {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 591.55px);
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), #d10505;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 268.6px;
+  height: 36.1px;
+}
+.last-name-child {
+  position: absolute;
+  top: 50px;
+  left: 641.1px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  width: 542px;
+  height: 109.2px;
+}
+.last-name {
+  width: 1183.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 429px;
+  left: calc(50% - 909px);
+  height: 162.9px;
+  z-index: 13;
+}
+.profile-page-child3,
+.profile-page-child4 {
+  width: 542px;
+  position: absolute;
+  margin: 0 !important;
+  top: 660px;
+  left: 710px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  height: 109px;
+  z-index: 14;
+}
+.profile-page-child4 {
+  top: 830px;
+  height: 110px;
+  z-index: 15;
+}
+.tanggal-lahir {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 287.6px);
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), #d10505;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 268.6px;
+  height: 36.1px;
+}
+.birth-date-child {
+  position: absolute;
+  top: 40px;
+  left: 32.3px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  width: 542.9px;
+  height: 109.2px;
+}
+.birth-date {
+  width: 575.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 440px;
+  left: calc(50% + 279.8px);
+  height: 151.9px;
+  z-index: 16;
+}
+.profile-page-child5,
+.profile-page-child6 {
+  width: 543px;
+  position: absolute;
+  margin: 0 !important;
+  top: 660px;
+  left: 1290px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  height: 109px;
+  z-index: 17;
+}
+.profile-page-child6 {
+  top: 830px;
+  height: 110px;
+  z-index: 18;
+}
+.agus-supriyadi,
+.agus123gmailcom,
+.informasi-personal {
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+  height: 71px;
+}
+.informasi-personal {
+  width: 691px;
+  margin: 0 !important;
+  top: calc(50% - 205px);
+  left: calc(50% + 209px);
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 19;
+}
+.agus-supriyadi,
+.agus123gmailcom {
+  top: calc(50% - 56px);
+  left: calc(50% - 177.5px);
+  width: 267px;
+}
+.agus123gmailcom {
+  top: calc(50% - 15px);
+  font-weight: 500;
+  width: 355px;
+}
+.agus-supriyadi-parent {
+  width: 355px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 281px);
+  left: calc(50% - 577px);
+  height: 112px;
+  z-index: 20;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.group-child26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 132px;
+}
+.whatsapp-image-2024-05-01-at-17 {
+  position: absolute;
+  top: 34px;
+  left: calc(50% - 960px);
+  width: 294px;
+  height: 65px;
+  object-fit: cover;
+}
+.beranda2 {
+  position: absolute;
+  top: 53px;
+  left: 575px;
+  text-decoration: underline;
+  color: var(--color-cornflowerblue-100);
+  cursor: pointer;
+}
+.kenapa-lifedia3,
+.tentang-lifedia2 {
+  position: absolute;
+  top: 53px;
+  left: 843px;
+  cursor: pointer;
+}
+.profile-name {
+  width: auto;
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid var(--color-darkslategray); /* Anda bisa mengganti warna ini sesuai kebutuhan */
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-darkslategray); /* Anda bisa mengganti warna ini sesuai kebutuhan */
+  background-color: var(--color-white); /* Anda bisa mengganti warna ini sesuai kebutuhan */
+  outline: none; /* Menghilangkan outline default */
+  cursor: text; /* Menampilkan cursor teks saat di-hover */
+}
+
+/* Gaya saat elemen dalam keadaan fokus */
+.profile-name:focus {
+  border: 2px solid red; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.tentang-lifedia2 {
+  left: 1175px;
+}
+.hi-agus-frame,
+.hi-agus2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hi-agus-frame {
+  top: 53px;
+  left: 1699px;
+  width: 139px;
+  height: 37px;
+}
+.rectangle-parent24 {
+  width: 1920px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  height: 132px;
+  z-index: 21;
+}
+.group-child27 {
+  position: absolute;
+  top: 46px;
+  left: 21px;
+  border-radius: 50%;
+  width: 194px;
+  height: 155.2px;
+  object-fit: cover;
+}
+.a94f6bc1e819d8b3a5edf2c4c3-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 267px;
+  width: 236px;
+  height: 236px;
+  object-fit: cover;
+}
+.calendar-icon,
+.ellipse-parent {
+  width: 236px;
+  position: absolute;
+  margin: 0 !important;
+  top: 178px;
+  left: 107px;
+  height: 236px;
+  z-index: 22;
+}
+.calendar-icon {
+  width: 63px;
+  top: 505px;
+  left: 1739px;
+  height: 63px;
+  object-fit: cover;
+  z-index: 23;
+}
+.batal,
+.laki-laki,
+.perempuan,
+.simpan {
+  width: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: 988px;
+  left: calc(50% + 721px);
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  color: white;
+  z-index: 24;
+}
+.batal,
+.laki-laki,
+.perempuan {
+  width: 66px;
+  left: calc(50% + 562px);
+  color: red;
+  z-index: 25;
+}
+.laki-laki,
+.perempuan {
+  width: 148px;
+  top: 698px;
+  left: 500px;
+  color: var(--color-darkslategray-100);
+  z-index: 26;
+}
+.laki-laki {
+  width: 143px;
+  top: 691px;
+  left: calc(50% - 754px);
+  font-size: var(--font-size-13xl);
+  z-index: 27;
+}
+.profile-page-child7,
+.profile-page-child8 {
+  width: 52px;
+  position: absolute;
+  margin: 0 !important;
+  top: 685px;
+  left: 150px;
+  height: 52px;
+  z-index: 28;
+}
+.profile-page-child8 {
+  left: 430px;
+  z-index: 29;
+}
+
+.agus-supriyadi1,
+.agus-supriyadi2,
+.agus123gmailcom1,
+.cm,
+.div2,
+.div3,
+.div4,
+.kg {
+  width: 497px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 26px);
+  left: calc(50% - 246px);
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  height: 63px;
+  z-index: 30;
+}
+.agus-supriyadi2,
+.agus123gmailcom1,
+.cm,
+.div2,
+.div3,
+.div4,
+.kg {
+  top: calc(50% + 149px);
+  z-index: 31;
+}
+.agus-supriyadi2,
+.agus123gmailcom1,
+.cm,
+.div3,
+.div4,
+.kg {
+  top: calc(50% + 145px);
+  left: calc(50% + 338px);
+  z-index: 32;
+}
+.agus-supriyadi2,
+.cm,
+.div3,
+.div4,
+.kg {
+  top: calc(50% + 318px);
+  left: calc(50% - 831px);
+  z-index: 33;
+}
+.agus-supriyadi2,
+.div3,
+.div4,
+.kg {
+  top: calc(50% + 322px);
+  left: calc(50% - 246px);
+  z-index: 34;
+}
+.agus-supriyadi2,
+.div3,
+.div4 {
+  top: calc(50% + 316px);
+  left: calc(50% + 338px);
+  z-index: 35;
+}
+.agus-supriyadi2,
+.div4 {
+  top: calc(50% - 21px);
+  left: calc(50% + 346px);
+  z-index: 36;
+}
+.agus-supriyadi2 {
+  top: calc(50% - 27px);
+  left: calc(50% - 828px);
+  z-index: 37;
+}
+.profile-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}

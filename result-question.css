@@ -1,0 +1,345 @@
+.image-2-icon13 {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 1980px;
+  height: 1080px;
+  object-fit: cover;
+}
+.rekomendasi-asuransi-terbaik {
+  position: absolute;
+  top: 233px;
+  left: 161px;
+  font-size: 70px;
+  display: inline-block;
+  text-align: center;
+  width: 1598px;
+  height: 65px;
+}
+.biaya-polis,
+.biaya-rawat-inap,
+.limit-pertanggungan,
+.rp1000000,
+.rp2000000000,
+.rp345000 {
+  position: absolute;
+  top: 410px;
+  left: 870px;
+  display: inline-block;
+  width: 587px;
+  height: 61px;
+  font-size: 50px;
+}
+.biaya-polis,
+.biaya-rawat-inap,
+.rp1000000,
+.rp2000000000,
+.rp345000 {
+  top: 570px;
+}
+.biaya-polis,
+.rp1000000,
+.rp2000000000,
+.rp345000 {
+  top: 716px;
+}
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 531px;
+  border-radius: 45px;
+  width: 548px;
+  height: 170px;
+}
+.rectangle-div {
+  top: 148px;
+  left: 926px;
+  border-radius: 10px;
+  background-color: rgba(126, 178, 255, 0.5);
+  width: 302px;
+  height: 57px;
+  cursor: pointer;
+}
+.rp1000000,
+.rp2000000000,
+.rp345000 {
+  top: 477px;
+  font-size: var(--font-size-26xl);
+  width: 585px;
+  height: 65px;
+  font-size: 40px;
+}
+.rp1000000,
+.rp345000 {
+  top: 633px;
+}
+.rp345000 {
+  top: 777px;
+}
+.group-child14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: #7eb2ff;
+  width: 587px;
+  height: 96px;
+}
+.hubungi-agen {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 215.7px);
+  display: inline-block;
+  width: 448.3px;
+}
+.paket-basic,
+.rectangle-parent18 {
+  position: absolute;
+  top: 870px;
+  left: 870px;
+  width: 587px;
+  height: 96px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+}
+.paket-basic {
+  top: 824px;
+  left: 180px;
+  font-size: var(--font-size-45xl);
+  display: inline-block;
+  width: 440px;
+  height: 65px;
+}
+.download-3-removebg-preview-icon,
+.image-3-icon1 {
+  position: absolute;
+  top: 379px;
+  left: 161px;
+  width: 478px;
+  height: 478px;
+  object-fit: cover;
+}
+.image-3-icon1 {
+  top: 17px;
+  left: 0;
+  width: 1980px;
+  height: 527px;
+}
+.whatsapp-image-2024-05-03-at-1-icon1 {
+  position: absolute;
+  top: 82.5px;
+  left: 22.8px;
+  width: 401.6px;
+  height: 110px;
+  object-fit: cover;
+}
+.group-child15,
+.group-child16 {
+  position: absolute;
+  top: 0;
+  left: 504.4px;
+  border-radius: var(--br-26xl);
+  width: 521.6px;
+  height: 166.9px;
+}
+.group-child16 {
+  top: 201.3px;
+  left: 880.4px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-200);
+  width: 287.4px;
+  height: 56px;
+}
+.whatsapp-svgrepo-com-1-icon1 {
+  position: absolute;
+  top: 156.5px;
+  left: 904.8px;
+  width: 33px;
+  height: 34px;
+  overflow: hidden;
+}
+.div1 {
+  top: 160.1px;
+  left: 953.7px;
+  width: 190.4px;
+  height: 25.5px;
+}
+.div1,
+.lifedia-adalah-pintu1,
+.lifedia3 {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.lifedia-adalah-pintu1 {
+  top: 278.9px;
+  left: 55.2px;
+  font-size: var(--font-size-17xl);
+  width: 693.8px;
+  height: 172.8px;
+}
+.lifedia3 {
+  top: 161px;
+  left: 1476px;
+  width: 119px;
+  height: 29px;
+}
+.jl-pendidikan-no151,
+.lifedia4,
+.lifedia5,
+.lifediaupiedu1 {
+  position: absolute;
+  top: 228px;
+  left: 1474px;
+  font-weight: 500;
+  display: inline-block;
+  width: 101px;
+  height: 28px;
+}
+.jl-pendidikan-no151,
+.lifedia5,
+.lifediaupiedu1 {
+  top: 291px;
+  width: 112px;
+}
+.jl-pendidikan-no151,
+.lifediaupiedu1 {
+  top: 292.6px;
+  left: 880.4px;
+  width: 693.8px;
+  height: 28.5px;
+}
+.jl-pendidikan-no151 {
+  top: 421.3px;
+  width: 768.1px;
+  height: 57px;
+}
+.alamat1,
+.email1,
+.get-in-touch1,
+.hubungi-lifedia1 {
+  position: absolute;
+  top: 82.5px;
+  left: 880.4px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 693.8px;
+  height: 43.2px;
+}
+.alamat1,
+.email1,
+.get-in-touch1 {
+  top: 83px;
+  left: 1411px;
+  width: 260px;
+  height: 44px;
+}
+.alamat1,
+.email1 {
+  top: 230.8px;
+  left: 880.4px;
+  width: 693.8px;
+  height: 43.2px;
+}
+.alamat1 {
+  top: 356.4px;
+}
+.frame-icon,
+.iconmonstr-instagram-11-11 {
+  position: absolute;
+  top: 225.8px;
+  left: 1410.5px;
+  width: 31.4px;
+  height: 31.4px;
+  overflow: hidden;
+}
+.iconmonstr-instagram-11-11 {
+  top: 157.1px;
+  left: 1412.4px;
+  height: 32.4px;
+}
+.facebook-f-logo-blue-logowine-icon1 {
+  position: absolute;
+  top: 278.9px;
+  left: 1388.6px;
+  width: 75.2px;
+  height: 51.1px;
+  overflow: hidden;
+}
+.image-3-group {
+  position: absolute;
+  top: 1063px;
+  left: 0;
+  width: 1919px;
+  height: 544px;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+}
+.group-child17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1980px;
+  height: 132px;
+}
+.whatsapp-image-2024-05-01-at-15 {
+  position: absolute;
+  top: 34px;
+  left: calc(50% - 960px);
+  width: 294px;
+  height: 65px;
+  object-fit: cover;
+}
+.beranda1 {
+  position: absolute;
+  top: 53px;
+  left: 575px;
+  text-decoration: underline;
+  color: var(--color-cornflowerblue-100);
+  cursor: pointer;
+}
+.kenapa-lifedia2,
+.tentang-lifedia1 {
+  position: absolute;
+  top: 53px;
+  left: 843px;
+  cursor: pointer;
+}
+.tentang-lifedia1 {
+  left: 1175px;
+}
+.hi-agus1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hi-agus-container {
+  position: absolute;
+  top: 53px;
+  left: 1699px;
+  width: 139px;
+  height: 37px;
+}
+.rectangle-parent19 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 1920px;
+  height: 132px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+}
+.result-question {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1607px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

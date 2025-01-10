@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./question-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="question-3">
+      <div class="question-3-child"></div>
+      <img
+      class="image-2-icon2"
+      loading="lazy"
+      alt=""
+      src="./public/image-2@2x.png"
+    />
+      <div class="question-3-item"></div>
+      <b class="pertanyaan-ke-3">Pertanyaan ke 3</b>
+      <div class="sebelum-pandemi-mana">
+        Sebelum pandemi, mana destinasi wisata favoritmu
+      </div>
+      <div class="bimbingan-produk6">Bimbingan Produk</div>
+      <div class="rectangle-parent9" id="groupContainer">
+        <div class="group-child5"></div>
+        <div class="lokal">Lokal</div>
+      </div>
+      <div class="rectangle-parent10" id="groupContainer1">
+        <div class="group-child6"></div>
+        <div class="luar-negeri">Luar Negeri</div>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-4.html";
+        });
+      }
+      
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          window.location.href = "./question-4.html";
+        });
+      }
+      </script>
+  </body>
+</html>

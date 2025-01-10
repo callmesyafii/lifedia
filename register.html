@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <div class="sign-up">
+        <img
+        class="image-2-icon2"
+        loading="lazy"
+        alt=""
+        src="./public/image-2@2x.png"
+      />
+
+      <div class="register-child"></div>
+      <b class="daftar-akun">Daftar Akun</b>
+      <b class="nama">
+        <span>Nama</span>
+      </b>
+      <b class="email3">
+        <span>Email</span>
+      </b>
+      <div class="daftar-akun-baru">
+        Daftar akun baru untuk mengakses aplikasi.
+      </div>
+      <div class="register-item" id="rectangle1"></div>
+      <input type="text" class="register-item" id="rectangle">
+      <div class="register-inner" id="rectangle2"></div>
+      <input type="text" class="register-inner" id="rectangle">
+      <b class="password1">
+        <span>Password</span>
+      </b>
+      <b class="konfirmasi-password">
+        <span>Konfirmasi Password</span>
+      </b>
+      <div class="rectangle-parent21" id="groupContainer">
+        <div class="group-child19"></div>
+        <b class="daftar-akun1">Daftar Akun</b>
+      </div>
+      <div class="sudah-punya-akun" id="sudahPunyaAkun">
+        Sudah Punya akun? Masuk Sekarang
+      </div>
+      <div class="register-child1" id="rectangle3"></div>
+      <input type="password" class="register-child1" id="rectangle">
+      <div class="register-child2" id="rectangle4"></div>
+      <input type="password" class="register-child2" id="rectangle">
+
+      <div class="saya-menyetujui-syarat">
+        Saya menyetujui syarat & ketentuan
+      </div>
+      <div class="rectangle-parent22">
+        <div class="group-child20"></div>
+        <input type="checkbox" class="group-child20" id="myCheckbox">
+      </div>
+    </div>
+
+    <script>
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          // Please sync "register_2" to the project
+        });
+      }
+      
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          // Please sync "register_2" to the project
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./register-3.html";
+        });
+      }
+      
+      var sudahPunyaAkun = document.getElementById("sudahPunyaAkun");
+      if (sudahPunyaAkun) {
+        sudahPunyaAkun.addEventListener("click", function (e) {
+          window.location.href = "./sign-up.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+.question-confirm-child {
+  width: 100px;
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.image-2-icon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.question-confirm-item {
+  width: 1780px;
+  position: absolute;
+  margin: 0 !important;
+  top: 63px;
+  left: 70px;
+  border-radius: var(--br-49xl);
+  background-color: var(--color-white);
+  height: 953px;
+  z-index: 2;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-royalblue-100);
+  width: 880px;
+  height: 96px;
+}
+.konfirmasi1 {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 85px);
+}
+.rectangle-parent6 {
+  width: 880px;
+  position: absolute;
+  margin: 0 !important;
+  top: 861px;
+  left: 520px;
+  height: 96px;
+  cursor: pointer;
+  z-index: 3;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.bfe17b42f02cef38c8d9abb773a6a-icon {
+  width: 612px;
+  position: absolute;
+  margin: 0 !important;
+  top: 97px;
+  left: 654px;
+  height: 408px;
+  object-fit: cover;
+  z-index: 4;
+}
+.ini-akan-membantu,
+.keren,
+.sekarang-mari-kita {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+.keren {
+  width: 801px;
+  top: 527px;
+  left: calc(50% - 391px);
+  font-size: var(--font-size-61xl);
+  color: var(--color-darkslategray-100);
+  height: 107px;
+  z-index: 5;
+}
+.ini-akan-membantu,
+.sekarang-mari-kita {
+  width: 1266px;
+  top: 634px;
+  left: 327px;
+  font-weight: 500;
+  z-index: 6;
+}
+.ini-akan-membantu {
+  top: 732px;
+  z-index: 7;
+}
+.question-confirm {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-montserrat);
+}

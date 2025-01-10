@@ -1,0 +1,241 @@
+.image-2-icon14,
+.sign-up-child {
+  position: absolute;
+  margin: 0 !important;
+}
+.image-2-icon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.sign-up-child {
+  width: 1780px;
+  top: 63px;
+  left: 70px;
+  border-radius: var(--br-49xl);
+  background-color: var(--color-white);
+  height: 953px;
+  z-index: 1;
+}
+.whatsapp-image-2024-05-01-at-16 {
+  width: 414px;
+  position: absolute;
+  margin: 0 !important;
+  top: 134px;
+  left: calc(50% - 890px);
+  height: 114px;
+  object-fit: cover;
+  z-index: 2;
+}
+.selamat-datang {
+  width: 542px;
+  position: absolute;
+  margin: 0 !important;
+  top: 248px;
+  left: calc(50% - 826px);
+  font-size: 60px;
+  display: inline-block;
+  z-index: 3;
+}
+.span {
+  color: var(--color-red);
+}
+.email2,
+.masuk-untuk-mendapatkan {
+  width: 102px;
+  position: absolute;
+  margin: 0 !important;
+  top: 391px;
+  left: calc(50% - 826px);
+  display: inline-block;
+  z-index: 4;
+}
+.masuk-untuk-mendapatkan {
+  width: 678px;
+  top: 333px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  z-index: 5;
+}
+.sign-up-inner,
+.sign-up-item {
+  width: 880px;
+  position: absolute;
+  margin: 0 !important;
+  left: 134px;
+  border-radius: var(--br-smi);
+  height: 96px;
+  cursor: pointer;
+  font-size: 40px; /* Menambahkan ukuran font yang lebih besar */
+}
+.sign-up-item {
+  top: 453px;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  z-index: 6;
+}
+.sign-up-inner {
+  top: 862px;
+  background-color: var(--color-royalblue-100);
+  z-index: 7;
+}
+.span1 {
+  color: var(--color-red);
+}
+.masuk,
+.password {
+  width: 166px;
+  position: absolute;
+  margin: 0 !important;
+  top: 594px;
+  left: calc(50% - 826px);
+  display: inline-block;
+  z-index: 8;
+}
+.masuk {
+  width: 104px;
+  top: 891px;
+  left: calc(50% - 438px);
+  color: var(--color-white);
+  z-index: 9;
+}
+.belum-punya-akun {
+  width: 446px;
+  top: 787px;
+  left: calc(50% - 396px);
+  font-size: var(--font-size-5xl);
+  text-decoration: underline;
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 10;
+}
+.belum-punya-akun,
+.icon-eye-off,
+.sign-up-child1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.sign-up-child1 {
+  width: 880px;
+  top: 645px;
+  left: 134px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  height: 96px;
+  z-index: 11;
+  font-size: 40px; /* Menambahkan ukuran font yang lebih besar */
+}
+.icon-eye-off {
+  width: 2.03%;
+  height: 3.61%;
+  top: 62.31%;
+  right: 48.96%;
+  bottom: 34.07%;
+  left: 49.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 12;
+}
+.ingat-saya {
+  position: absolute;
+  top: 1px;
+  left: calc(50% - 55.5px);
+}
+.group-child18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 1px;
+  width: 39.4px;
+  height: 39.4px;
+}
+.icon-check {
+  position: absolute;
+  height: 45.18%;
+  width: 63.45%;
+  top: 27.16%;
+  right: 17.77%;
+  bottom: 27.66%;
+  left: 18.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39.4px;
+  height: 39.4px;
+}
+.ingat-saya-parent {
+  width: 213px;
+  position: absolute;
+  margin: 0 !important;
+  top: 782px;
+  left: calc(50% - 820px);
+  height: 39.4px;
+  z-index: 13;
+  color: #000;
+}
+.international-day-of-families- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 58px;
+  width: 764px;
+  height: 953px;
+  object-fit: cover;
+}
+.international-day-of-families-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 629px;
+  height: 953px;
+  object-fit: cover;
+}
+.international-day-of-families-parent {
+  width: 764px;
+  position: absolute;
+  margin: 0 !important;
+  top: 63px;
+  left: 1086px;
+  height: 953px;
+  z-index: 14;
+}
+.sign-up {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}

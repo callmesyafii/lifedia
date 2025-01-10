@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sign-up.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-up">
+      <img
+      class="image-2-icon2"
+      loading="lazy"
+      alt=""
+      src="./public/image-2@2x.png"
+    />
+
+      <div class="sign-up-child"></div>
+      <img
+        class="whatsapp-image-2024-05-01-at-16"
+        alt=""
+        src="./public/whatsapp-image-20240501-at-1819-1@2x.png"
+      />
+
+      <b class="selamat-datang">Selamat Datang !</b>
+      <b class="email2">
+        <span>Email</span>
+      </b>
+      <div class="masuk-untuk-mendapatkan">
+        Masuk untuk mendapatkan akses tak terbatas ke data & informasi.
+      </div>
+      <div class="sign-up-item" id="rectangle1"></div>
+      <input type="text" class="sign-up-item" id="rectangle">
+      <div class="sign-up-inner" id="rectangle2"></div>
+      <b class="password">
+        <span>Password</span>
+      </b>
+      <b class="masuk">Masuk</b>
+      <a href="register.html" class="belum-punya-akun" id="belumPunyaAkun">
+        Belum punya akun? Daftar sekarang
+      </a>      
+      <div class="sign-up-child1"></div>
+      <input type="password" class="sign-up-child1" id="rectangle">
+
+      <div class="ingat-saya-parent">
+        <b class="ingat-saya">Ingat saya</b>
+        <div class="rectangle-parent20">
+          <div class="group-child18"></div>
+          <input type="checkbox" class="group-child18" id="myCheckbox">
+          <img class="icon-check" alt="" src="./public/-icon-check.svg" />
+        </div>
+      </div>
+      <div class="international-day-of-families-parent">
+        <img
+          class="international-day-of-families-"
+          alt=""
+          src="./public/international-day-of-families--interesting-ways-to-stay-connected-with-your-family-1@2x.png"
+        />
+
+        <img
+          class="international-day-of-families-1"
+          alt=""
+          src="./public/international-day-of-families--interesting-ways-to-stay-connected-with-your-family-2@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          // Please sync "sign_up_masuk" to the project
+        });
+      }
+      
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var belumPunyaAkun = document.getElementById("belumPunyaAkun");
+      if (belumPunyaAkun) {
+        belumPunyaAkun.addEventListener("click", function (e) {
+          // Please sync "register" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

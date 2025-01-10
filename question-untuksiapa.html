@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./question-untuksiapa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="question-untuksiapa">
+      <div class="question-untuksiapa-child"></div>
+      <img class="image-2-icon1" alt="" src="./public/image-2@2x.png" />
+
+      <main class="rectangle-container">
+        <div class="frame-child1"></div>
+        <section class="frame-parent">
+          <div class="untuk-siapa-wrapper">
+            <h1 class="untuk-siapa">Untuk siapa?</h1>
+          </div>
+          <div class="sebelum-kami-menanyakan-container">
+            <p class="sebelum-kami-menanyakan">
+              Sebelum kami menanyakan prefensi Anda, kami ingin mengetahui untuk
+              siapa polis ini akan diberikan.
+            </p>
+          </div>
+        </section>
+        <section class="frame-wrapper">
+          <div class="frame-group">
+            <div class="frame-container">
+              <div class="saya-wrapper">
+                <div class="saya" id="sayaContainer">
+                  <div class="saya-container">
+                    <b class="saya1">Saya</b>
+                  </div>
+                  <img
+                    class="icon-me"
+                    loading="lazy"
+                    alt=""
+                    src="./public/-icon-me.svg"
+                  />
+                </div>
+              </div>
+              <div class="saudara" id="saudaraContainer">
+                <div class="saudara-wrapper">
+                  <b class="saudara1">Saudara</b>
+                </div>
+                <img
+                  class="icon-me1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-me.svg"
+                />
+              </div>
+            </div>
+            <div class="frame-parent1">
+              <div class="istri-wrapper">
+                <div class="istri" id="istriContainer">
+                  <div class="istri-container">
+                    <b class="istri1">Istri</b>
+                  </div>
+                  <img
+                    class="icon-me2"
+                    loading="lazy"
+                    alt=""
+                    src="./public/-icon-me.svg"
+                  />
+                </div>
+              </div>
+              <div class="anak" id="anakContainer">
+                <div class="anak-wrapper">
+                  <b class="anak1">Anak</b>
+                </div>
+                <img
+                  class="icon-me3"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-me.svg"
+                />
+              </div>
+            </div>
+            <div class="icon-me-parent">
+              <div class="icon-me4" id="iconMeContainer">
+                <div class="icon-me-inner">
+                  <div class="vector-parent">
+                    <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+                    <div class="wrapper-group">
+                      <img
+                        class="group-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/group.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <b class="orang-tua">Orang Tua</b>
+              </div>
+              <div class="frame-wrapper1">
+                <div class="group-div" id="groupContainer">
+                  <div class="pekerja-wrapper">
+                    <b class="pekerja">Pekerja</b>
+                  </div>
+                  <img
+                    class="icon-me5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/-icon-me-4.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var sayaContainer = document.getElementById("sayaContainer");
+      if (sayaContainer) {
+        sayaContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      
+      var saudaraContainer = document.getElementById("saudaraContainer");
+      if (saudaraContainer) {
+        saudaraContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      
+      var istriContainer = document.getElementById("istriContainer");
+      if (istriContainer) {
+        istriContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      
+      var anakContainer = document.getElementById("anakContainer");
+      if (anakContainer) {
+        anakContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      
+      var iconMeContainer = document.getElementById("iconMeContainer");
+      if (iconMeContainer) {
+        iconMeContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-namaumur.html";
+        });
+      }
+      </script>
+  </body>
+</html>
